@@ -21,6 +21,8 @@
     * version negotiation removed (downgrade attack)
     * PFS (Perfect Forward Secrecy)
 
+* [Command Line Elliptic Curve Operations](https://wiki.openssl.org/index.php/Command_Line_Elliptic_Curve_Operations)
+
 * [How to create eliptic curve ecdh with openssl](https://xenovation.com/blog/security/pki/creating-elliptic-curve-ecdh-key-with-openssl)
 
 * [Understanding a TLS 1.3 0-RTT replay attack](https://security.stackexchange.com/questions/166156/understanding-a-tls-1-3-0-rtt-replay-attack)

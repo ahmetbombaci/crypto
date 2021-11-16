@@ -13,6 +13,14 @@ readcert:
 gensshkey:
 	ssh-keygen
 
+listopensslciphers:
+	# openssl list -cipher-commands
+	openssl ciphers
+
+list openssldigest:
+	# openssl list -digest-commands
+	openssl dgst -list
+
 listecdhkeys:
 	openssl ecparam -list_curves
 
@@ -22,9 +30,13 @@ genecdhkey:
 disecdhkey:
 	openssl ec -in mykey-prime256v1.pem -text -noout
 
+disecdhpubkey:
+	openssl ec -pubout -in mykey-prime256v1.pem
+
 calchash:
 	echo "Hello Ahmet" | sha512sum
 	echo "Hello Ahmet" | md5sum
+	echo "Hello Ahmet" | openssl dgst -md5
 
 cryptonice-demo:
 	# https://www.f5.com/labs/articles/threat-intelligence/cryptonice
