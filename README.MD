@@ -21,17 +21,23 @@
     * version negotiation removed (downgrade attack)
     * PFS (Perfect Forward Secrecy)
 
-* [Command Line Elliptic Curve Operations](https://wiki.openssl.org/index.php/Command_Line_Elliptic_Curve_Operations)
-
 * [How to create eliptic curve ecdh with openssl](https://xenovation.com/blog/security/pki/creating-elliptic-curve-ecdh-key-with-openssl)
 
 * [Understanding a TLS 1.3 0-RTT replay attack](https://security.stackexchange.com/questions/166156/understanding-a-tls-1-3-0-rtt-replay-attack)
-
 
 * [The 2021 TLS Telemetry Report](https://www.f5.com/labs/articles/threat-intelligence/the-2021-tls-telemetry-report)
 
 * [Crypto++](https://cryptopp.com/wiki/Main_Page)
 
+* [Transport Layer Protection Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
+
+* [OWASP SSL advanced forensic tool / OWASP SSL audit for testers](https://owasp.org/www-project-o-saft/)
+
+* [Test SSL](https://github.com/drwetter/testssl.sh)
+
+* [Cryptographic Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)
+
+* OWASP Top 10 [Presentation](./OWASP_Top_Ten_2021.pdf) & Youtube [link](https://www.youtube.com/watch?v=pLsH-TT26Mo)
 
 # TLS/SSL RFC Links
 
@@ -53,6 +59,11 @@
 
 
 # Open SSL
+
+[man pages](https://www.mkssoftware.com/docs/man1/openssl_enc.1.asp)
+
+[Command Line Elliptic Curve Operations](https://wiki.openssl.org/index.php/Command_Line_Elliptic_Curve_Operations)
+
 
 The list of supported curves for TLS use is [here](https://github.com/openssl/openssl/blob/OpenSSL_1_0_2-stable/ssl/t1_lib.c#L231)
 
@@ -95,4 +106,6 @@ Elliptic Curve Cryptography (ECC) Brainpool curves were an option for authentica
 
 * [Elliptic Curve Cryptography (ECC) Brainpool Standard Curves and Curve Generation](https://datatracker.ietf.org/doc/rfc5639/)
 
+# TODO
 
+* [Tink Cryptographic Library](https://developers.google.com/tink)
